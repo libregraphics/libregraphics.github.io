@@ -12,7 +12,7 @@ mac: inline
 win: inline
 tags:
     - Raster Editor
-categories: [code, unix]
+categories: [raster, painting]
 about : GIMP (an acronym for GNU Image Manipulation Program) is a free and open-source raster graphics editor used for image retouching and editing, free-form drawing, resizing, cropping, photo-montages, converting between different image formats, and more specialized tasks. GIMP began in 1995 as the school project of two university students; now GIMP is a full-fledged application, available on all distributions of Linux, OS X and Microsoft Windows — XP and later versions. It is released under GPLv3+ licenses and is freely distributed to (and by) anybody, who can look at its contents and its source code and can add features or fix problems. <a href="http://en.wikipedia.org/wiki/GIMP">Read More</a>
 videolink: https://www.youtube.com/watch?v=Vd4J4jziPNU
 moreinfo: FontForge is under active development at <a href="https://github.com/fontforge/fontforge/issues">GitHub repo</a>. You can also contribute and decide how it sould be developped.

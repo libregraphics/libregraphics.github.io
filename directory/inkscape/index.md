@@ -1,4 +1,5 @@
 ---
+resource: true
 layout: tool
 title: Inkscape
 id: inkscape
@@ -11,4 +12,5 @@ mac: block
 win: block
 tags:
     - Vector Drawing
+categories: [vector]
 ---

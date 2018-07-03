@@ -1,4 +1,5 @@
 ---
+resource: true
 layout: tool
 title: Scribus
 status: Active Development
@@ -10,5 +11,5 @@ mac: block
 win: block
 tags:
     - Page Layout
-catagories: design
+categories: [layout]
 ---

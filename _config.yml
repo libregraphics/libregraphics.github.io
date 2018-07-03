@@ -2,7 +2,7 @@ safe: false
 lsi: false
 permalink: "/:categories/:title"
 baseurl:
-category-list: [code, editors, math, unix]
+category-list: [raster, vector, audio, video, text, 3d, fonts, painting, layout]
 
 # About/contact
 author:

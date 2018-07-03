@@ -13,7 +13,9 @@ They do not limit you or lock you down and force you to pay monthly expensive su
  No cracking and hacking! Or no trial periods or watermarks, full features with absolute freedom :) Copy, share, modify and distribute!
 
 
-### [Libre Graphics Tools directory](/en)
+### [Libre Graphics tools directory](/directory/)
+### [Articles](/articles/)
+### [Presentations](/presentations/)
 
 
 ### Links
@@ -22,3 +24,5 @@ They do not limit you or lock you down and force you to pay monthly expensive su
 - [Libre Graphics World - Blog](http://libregraphicsworld.org/)
 - [Libre Graphics World - Twitter](https://twitter.com/lgworld)
 - [Libre Graphics Magazine](http://libregraphicsmag.com/)
+- [Open Source Design community](https://opensourcedesign.net/)
+- [Open Source Design jobs](https://opensourcedesign.net/jobs/)

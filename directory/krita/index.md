@@ -1,4 +1,5 @@
 ---
+resource: true
 layout: tool
 title: Krita
 name: krita
@@ -11,6 +12,6 @@ mac:
 win: block
 tags:
     - Digital Painting
-catagories: design
+categories: [raster, painting]
 background: D4C3FE
 ---
