@@ -48,7 +48,7 @@ a {
 
 
 }
-    
+
     text-decoration: none;
 }
 
@@ -66,7 +66,7 @@ h6 {
     font-weight: 700;
     margin: 0 0 0.5rem -0.1rem
     /* align left edge */
-    
+
     ;
     line-height: 1;
     color: #111;
@@ -241,7 +241,7 @@ a.tile_link:focus {
     text-transform: uppercase;
     float: left;
       line-height: 1.1;
-    
+
 }
 
 .tile-link {
@@ -319,7 +319,7 @@ nav{
     background:  #fd3e3e;
     width: 100%;
     z-index: 1;
- 
+
 }
 
 .os_icon{
@@ -353,7 +353,7 @@ height: 570px;
 }
 .sss {
 	height: 0;
-	margin: 0; 
+	margin: 0;
 	padding: 0;
 	position: relative;
 	display: block;
@@ -411,11 +411,11 @@ height: 570px;
 .tag-cloud {
   list-style: none;
   padding: 0;
-  text-align: justify; 
+  text-align: justify;
   font-size: 16px;
   li {
     display: inline-block;
-    margin: 0 12px 12px 0; 
+    margin: 0 12px 12px 0;
   }
 }
 #archives {
@@ -456,7 +456,7 @@ background: #eee;
 
 .videolink{
 text-align: center;
-    
+
 }
 .videolink a{
 color: #000;
@@ -501,5 +501,18 @@ a.toggler {
 
 a.toggler.off {
     background: #fd3e3e!important;
+
+}
+
+/*********************************************
+/* DIRECTORY
+/**********************************************/
+
+# directory{
+
+}
+
+# directory ul{
+  list-style: none;
 
 }
