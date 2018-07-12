@@ -3,26 +3,6 @@ layout: default
 title: Libre Graphics Tools
 ---
 
-{% for cat in site.category-list %}
-### {{ cat }}
-<ul>
-  {% for page in site.pages %}
-    {% if page.resource == true %}
-      {% for pc in page.categories %}
-        {% if pc == cat %}
-        <div id="directory ">
-          <li><img style="width: 100px;" src="{{ page.id }}/{{ page.icon }}"> <a href="{{ page.homepage }}" target="_blank">{{ page.title }}</a></li>
-        {% endif %}   <!-- cat-match-p -->
-      {% endfor %}  <!-- page-category -->
-    {% endif %}   <!-- resource-p -->
-  {% endfor %}  <!-- page -->
-</ul>
-{% endfor %}  <!-- cat -->
-
-
-{% capture index %}
-
-
 
 
 <div class="grid grid-pad">
@@ -42,64 +22,49 @@ title: Libre Graphics Tools
 You are invited to contribute to and improve.
 
 
-</div>
 
-	<div class="col-1-2 mobile-col-1-1">
         <li>Free To Copy and Distribute</li>
-        <li></li>
+        <li>Free To Copy and Distribute</li>
+        <li>Free To Copy and Distribute</li>
+        <li>Free To Copy and Distribute</li>
+        <li>Free To Copy and Distribute</li>
+        <li>Free To Copy and Distribute</li>
 	</div>
 	</div>
+  </div>
 
 
 
-    </div>
+
+<div id="directory">
+{% for cat in site.category-list %}
+
+<h6 class="category">
+ {{ cat }}
+ </h6>
+<ul>
+  {% for page in site.pages %}
+    {% if page.resource == true %}
+      {% for pc in page.categories %}
+        {% if pc == cat %}
+        <a class="tool_link tile" href="{{ page.homepage }}" target="_blank">
+          <li><img style="width: 100px;" src="{{ page.id }}/{{ page.icon }}"> {{ page.title }}</li></a>
+        {% endif %}   <!-- cat-match-p -->
+      {% endfor %}  <!-- page-category -->
+    {% endif %}   <!-- resource-p -->
+  {% endfor %}  <!-- page -->
+  </ul>
+
+{% endfor %}  <!-- cat -->
+
+
+{% capture index %}
 
 
 
-<div class="grid grid-pad">
 
 
 
-    <div class="post">
-        {% for post in site.posts %}     
-{% if post.categories contains 'en' %}
-
-
-         <div class="col-1-3 ">
-
-
-
-            <a class="tile_link" href="{{ site.baseurl }}{{ post.url }}" >
-
-            <div class="tile">
-                <h2><img src class="tool_icon" src="{{ site.baseurl }}/images/{{ post.icon }}">{{ post.title }}</h2>
-                <div class="category">&nbsp;{{ post.category }}{{ post.tags }}  <span class="os_icon" style="display:{{ post.gnu }};"><i class="fa fa-linux"></i></span>
-                    <span class="os_icon" style="display:{{ post.mac }};"> <i class="fa fa-apple"></i></span>
-                    <span class="os_icon" style="display:{{ post.win }};"><i class="fa fa-windows"></i></span></div>
-
-
-             <br>
-            <p>{{ post.des }}</p>
-
-
-            </div>
-            </a>
-
-       </div>
-
-      {% endif %}{% endfor %}  
-
-</div>
-
-
-
-<!--
-<div class="grid grid-pad">
-    <div class="col-1-3 mobile-col-1-1 push-1-3">
-        <a id="exportxt" href="#">MoreS&nbsp;&#8623;</a>
-        <div style="display:none;" id="editor" class="code_display"></div>
-    </div>
-</div>-->
 
 
 

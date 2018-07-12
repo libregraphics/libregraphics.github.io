@@ -201,58 +201,6 @@ pre > code {
     margin-top: 60px;
 }
 
-/*tiles*/
-
-.tile {
-    padding: 10px;
-    text-decoration: none;
-    color: #000000;
-    transition: all .5s ease;
-    height: 260px;
-}
-
-.tile:hover {
-    padding: 10px;
-    text-decoration: none;
-    color: #000000;
-    background: #eee;
-}
-
-a.tile_link {
-    text-decoration: none;
-}
-
-a.tile_link:hover {
-    text-decoration: none;
-}
-
-a.tile_link:focus {
-    text-decoration: none;
-}
-
-.tile a {
-    text-decoration: none;
-}
-
-
-.category {
-    color: #000;
-    padding: 0px;
-    text-transform: uppercase;
-    float: left;
-      line-height: 1.1;
-
-}
-
-.tile-link {
-    text-decoration: none;
-}
-
-
-.fixed {
-    position: fixed;
-}
-
 
 
 /* RADIO */
@@ -508,11 +456,39 @@ a.toggler.off {
 /* DIRECTORY
 /**********************************************/
 
-# directory{
-
+#directory {
 }
 
-# directory ul{
+#directory ul {
   list-style: none;
+  clear: both;
+  display: block;
+}
+
+#directory a {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  transition: all .5s ease;
+  height: 200px;
+  float: left;
+}
+
+#directory a:hover {
+    padding: 0px;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.category {
+    color: #000;
+    padding: 0px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    display: block;
+    clear: both;
+    /*border-bottom: 1px solid red;*/
 
 }
