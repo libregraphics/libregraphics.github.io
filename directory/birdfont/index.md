@@ -2,7 +2,7 @@
 resource: true
 layout: tool
 title: BirdFont
-name: birdfont
+id: birdfont
 status: Active Development
 homepage: http://birdfont.org/
 icon: birdfont_icon.png

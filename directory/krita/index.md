@@ -2,7 +2,7 @@
 resource: true
 layout: tool
 title: Krita
-name: krita
+id: krita
 status: Active Development
 homepage: http://krita.org/
 icon: krita_icon.svg

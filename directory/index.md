@@ -10,7 +10,8 @@ title: Libre Graphics Tools
     {% if page.resource == true %}
       {% for pc in page.categories %}
         {% if pc == cat %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        <div id="directory ">
+          <li><img style="width: 100px;" src="{{ page.id }}/{{ page.icon }}"> <a href="{{ page.homepage }}" target="_blank">{{ page.title }}</a></li>
         {% endif %}   <!-- cat-match-p -->
       {% endfor %}  <!-- page-category -->
     {% endif %}   <!-- resource-p -->
@@ -18,13 +19,6 @@ title: Libre Graphics Tools
 </ul>
 {% endfor %}  <!-- cat -->
 
-
-
----
-layout: default
-lang: en
-category: en
----
 
 {% capture index %}
 

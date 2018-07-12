@@ -2,6 +2,7 @@
 resource: true
 layout: tool
 title: Scribus
+id: scribus
 status: Active Development
 homepage: http://scribus.org
 icon: scribus_icon.svg

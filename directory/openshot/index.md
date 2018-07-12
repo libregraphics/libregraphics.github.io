@@ -2,16 +2,16 @@
 resource: true
 layout: tool
 title: OpenShot
-name: openshot
+id: openshot
 status: Active Development
-homepage: http://krita.org/
+homepage: https://www.openshot.org/
 icon: openshot_icon.svg
 des: OpenShot Video Editor is an easy to use, quick to learn, and surprisingly powerful video editor.
 gnu: block
 mac:
 win: block
 tags:
-    - Digital Painting
-categories: [raster, painting]
-background: D4C3FE
+    - Video Editing
+categories: [video]
+background: 0088cc
 ---
