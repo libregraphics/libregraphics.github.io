@@ -4,6 +4,5 @@ title: Libre Graphics Tools
 ---
 
 - [Krita for Animation](/articles/krita-for-animation)
-- [Libre Workflow](/articles/libre-workflow)
+- [Libre Resources](/articles//libre-resources)
 
-[Libre Graphics Meeting](https://libregraphicsmeeting.org/2018/)
