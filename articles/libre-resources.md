@@ -5,8 +5,8 @@ title: Libre Graphics Workflow
 
 ###### Fonts
 - [Font Library](https://fontlibrary.org/)
-- [Sinhala Fonts](http://textual.works/fonts/)
 - [Google Fonts](fonts.google.com)
+- [UseModify](https://usemodify.com/)
 
 ---
 
@@ -19,7 +19,8 @@ title: Libre Graphics Workflow
 - [LibreStock](https://video.librestock.com/)
 - [Unsplash](https://unsplash.com/)
 - [Google Image Search](https://unsplash.com/)
-
+- [Project Gutenberg](https://www.gutenberg.org/)
+- [British Library Flickr](https://www.flickr.com/photos/britishlibrary/)
 ---
 
 ###### Music
